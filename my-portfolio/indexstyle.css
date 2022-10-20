@@ -1,0 +1,94 @@
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-height: 50px;
+    background: fixed;
+    background: linear-gradient(rgb(220, 232, 243), rgb(18, 126, 235),rgb(9, 216, 206));
+    font-size: 20px;
+    align-items: center;
+}
+
+.top h3:hover{
+  color: rgb(243, 10, 57);
+}
+
+.my-1{
+  color: rgb(5, 5, 5);
+  font-family: "poppins",sans-serif;
+  font-size: 25px;
+  padding-left: 40px;
+  margin-top: 90px;
+}
+
+.my-2{
+  display: block;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+#circle1, #circle2{
+  background: radial-gradient(rgb(242, 13, 43),rgb(250, 56, 101),rgb(242, 128, 138),rgb(232, 225, 225));
+  width: 100px;
+  height: 100px;
+  border-radius:20px;
+  box-sizing: 10px;
+  position: absolute;
+  flex-shrink: initial;
+  
+}
+#circle1{
+  margin-left: 45vh;
+  margin-top: 40vh;
+ 
+}
+#circle2{
+  margin-left: -0vw;
+  margin-top: 1vw;
+}
+#my-pic img{
+  height: 350px;
+  width: 320px;
+  border-radius: 50%;
+  position:relative;
+  padding-left: 30px;
+  padding-right: 40px;
+ 
+
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  /* padding-top: 50px; */
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive-page */
+@media (max-width: 611px) {
+  .my-1{
+    margin-top:10px ;
+  }
+ .about {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+}
