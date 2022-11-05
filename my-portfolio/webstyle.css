@@ -5,7 +5,7 @@
   }
   
   body{
-    background: linear-gradient(rgb(255, 255, 255), rgb(28, 104, 246),rgb(9, 216, 206));
+    background: linear-gradient(to right, rgb(28, 104, 246),rgb(89, 202, 250),rgb(20, 105, 232));
     background-repeat: no-repeat;
   }
   
@@ -61,6 +61,14 @@
   
 
   @media (max-width:611px){
+    body{
+      width:100%;
+      background: linear-gradient(to right, rgb(18, 94, 235),rgb(108, 218, 226),rgb(8, 131, 197));
+      background-repeat: no-repeat;
+      background-size: 1000px;
+      box-sizing: content-box;
+      padding-right:200px;
+    }
     .all-project{
         display: flex;
         flex-direction: column;
